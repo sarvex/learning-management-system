@@ -1,0 +1,14 @@
+{
+  "workbench.colorCustomizations": {
+    "sash.hoverBorder": "#d1ffcc",
+    "statusBar.background": "#a3ff99",
+    "statusBar.border": "#a3ff99",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#75ff66",
+    "statusBarItem.remoteBackground": "#a3ff99",
+    "statusBarItem.remoteForeground": "#15202b",
+    "tab.activeBorder": "#d1ffcc"
+  },
+  "peacock.color": "#a3ff99",
+  "marquee.widgets.npm-stats.packageNames": ["learning-management-system"]
+}
