@@ -12,11 +12,11 @@ importers:
         specifier: 22.5.0
         version: 22.5.0
       '@types/react':
-        specifier: 18.3.4
-        version: 18.3.4
+        specifier: 18.3.20
+        version: 18.3.20
       '@types/react-dom':
-        specifier: 18.3.0
-        version: 18.3.0
+        specifier: 18.3.5
+        version: 18.3.5(@types/react@18.3.20)
       autoprefixer:
         specifier: 10.4.20
         version: 10.4.20(postcss@8.4.41)
@@ -254,11 +254,13 @@ packages:
   '@types/prop-types@15.7.6':
     resolution: {integrity: sha512-RK/kBbYOQQHLYj9Z95eh7S6t7gq4Ojt/NT8HTk8bWVhA5DaF+5SMnxHKkP4gPNN3wAZkKP+VjAf0ebtYzf+fxg==}
 
-  '@types/react-dom@18.3.0':
-    resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
+  '@types/react-dom@18.3.5':
+    resolution: {integrity: sha512-P4t6saawp+b/dFrUr2cvkVsfvPguwsxtH6dNIYRllMsefqFzkZk5UIjzyDOv5g1dXIPdG4Sp1yCR4Z6RCUsG/Q==}
+    peerDependencies:
+      '@types/react': ^18.0.0
 
-  '@types/react@18.3.4':
-    resolution: {integrity: sha512-J7W30FTdfCxDDjmfRM+/JqLHBIyl7xUIp9kwK637FGmY7+mkSFSe6L4jpZzhj5QMfLssSDP4/i75AKkrdC7/Jw==}
+  '@types/react@18.3.20':
+    resolution: {integrity: sha512-IPaCZN7PShZK/3t6Q87pfTkRm6oLTd4vztyoj+cbHUF1g3FfVb2tFIL79uCRKEfv16AhqDMBywP2VW3KIZUvcg==}
 
   '@typescript-eslint/parser@6.7.2':
     resolution: {integrity: sha512-KA3E4ox0ws+SPyxQf9iSI25R6b4Ne78ORhNHeVKrPQnoYsb9UhieoiRoJgrzgEeKGOXhcY1i8YtOeCHHTDa6Fw==}
@@ -1701,11 +1703,11 @@ snapshots:
 
   '@types/prop-types@15.7.6': {}
 
-  '@types/react-dom@18.3.0':
+  '@types/react-dom@18.3.5(@types/react@18.3.20)':
     dependencies:
-      '@types/react': 18.3.4
+      '@types/react': 18.3.20
 
-  '@types/react@18.3.4':
+  '@types/react@18.3.20':
     dependencies:
       '@types/prop-types': 15.7.6
       csstype: 3.1.2
